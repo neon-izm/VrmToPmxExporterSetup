@@ -94,4 +94,18 @@ Face.M_F00_000_00_Fcl_MTH_Surprised,Д,M
 
 #add Vroid stuido v6.4 fix 
 Face.M_F00_000_00_Fcl_MTH_Natural,口角上げ,M
-EyeExtra.M_F00_000_00_EyeExtra_On,はぅ目のみ
+EyeExtra.M_F00_000_00_EyeExtra_On,はぅ目のみ#some ARKit facials and some options
+
+A,あ,M
+I,い,M
+U,う,M
+E,え,M
+O,お,M
+Blink,まばたき,E
+Blink_R,ウィンク２,E
+Blink_L,ｳｨﾝｸ２右,E
+Joy,喜
+Angry,怒
+Sorrow,哀
+Fun,楽
+Surprised,驚

@@ -52,7 +52,7 @@ public class PMXExporter : MonoBehaviour
     }
 
     [ContextMenu("Export")]
-    void Init()
+    public void Init()
     {
         Debug.Log("build 315");
 
@@ -729,7 +729,7 @@ public class PMXExporter : MonoBehaviour
 
                         //var m = src.localToWorldMatrix; // include scaling
                         var m = default(Matrix4x4);
-                        m.SetTRS(Vector3.zero, transform.rotation, Vector3.one); // rotation only
+                        m.SetTRS(renderer.transform.position, transform.rotation, Vector3.one); // position+ rotation 
                         mesh.ApplyMatrix(m);
 
 
@@ -1010,6 +1010,8 @@ public class PMXExporter : MonoBehaviour
                             SlotType = remapMorphType(x.name),
                         }).ToArray());
 
+                    /*
+                    
                     {
                         var proxy = GetComponent<VRMBlendShapeProxy>();
 
@@ -1042,12 +1044,7 @@ public class PMXExporter : MonoBehaviour
                                 }
                             }
 
-                            /*
-                            foreach (var materialblend in clip.MaterialValues)
-                            {
-                                Debug.Log("MaterialBlend : " + materialblend.ToString());
-                            }
-                            */
+                           
                             if (0 == dataList.Count())
                                 continue;
 
@@ -1078,7 +1075,7 @@ public class PMXExporter : MonoBehaviour
 
                         }
 
-                    }
+                    }*/
                 }
 
                 #region build 
