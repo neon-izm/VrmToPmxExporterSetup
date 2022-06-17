@@ -3,8 +3,8 @@ PMXExporter v0.5.6 by Furia https://twitter.com/flammpfeil/status/10322668295975
 を使ってPMXファイルを生成する際に、一部のVRMファイルで互換性の問題が生じることがあったので書き換えを行い、Unityプロジェクト形式として配布します。
 
 具体的には
-- モデリング過程で顔のメッシュの基点を原点以外にしているモデル
-- VrmBlendShapeProxyで複数メッシュにまたがるBlendShapeKeyが打たれている
+- モデリング過程で顔のメッシュの基点を原点以外にしているモデル(従来処理だと顔メッシュが足下に出てしまう)
+- VrmBlendShapeProxyで複数メッシュにまたがるBlendShapeKeyが打たれている(従来処理だとBlendShapeProxyが変換されない)
 
 ようなVRMファイルに対して効果があると期待しています
 
