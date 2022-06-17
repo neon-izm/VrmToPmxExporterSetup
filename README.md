@@ -15,8 +15,8 @@ PMXExporter v0.5.6 by Furia https://twitter.com/flammpfeil/status/10322668295975
 1. UnityEditorでプロジェクトを開きます
 2. vrmファイルをプロジェクトにインポートします 
 3. ヒエラルキービューにvrmファイルをドラッグアンドドロップしてモデルをシーン上に配置します
-4. UnityEditorのメニューからFancyConverter/PmxConvertWindowを選びます
-5．PmxConvertWindow内の vrmに先ほど配置したモデルを指定します
+4. UnityEditorのメニューからFancyConverter/PmxConvertWindowを選びます  
+5. PmxConvertWindow内の vrmに先ほど配置したモデルを指定します
 6. PmxConvertWindow内の変換ボタンを押します
 7. 数分待つとpmxファイルが生成されます
 
